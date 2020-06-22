@@ -20,3 +20,4 @@ This code aims at creating a replica-set by terraform for any image provided und
 5. Also if you have to delete that particular environment then use command "terraform destroy" to delete whole structure created. 
 6. One thing shuld be kept in mind that the whole work must be done in the same directory where the code file is located
 ```
+![image](https://user-images.githubusercontent.com/61407784/85315945-8d50b100-b4d9-11ea-9713-c619b2d719d6.png)
