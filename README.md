@@ -9,6 +9,9 @@ This code aims at creating a replica-set by terraform for any image provided und
 1. The device must be installed with terraform CLI.
 2. Your device must have "Minikube" installed and environment variables must be set in the device.
 3. The device also must have "kubectl" installed to manage some pods through CLI.
+4. Also the minikube VM must be created previously, before executing the code. To create it you just have to run one command on your command prompt, i.e. , "minikube start --vm-driver=your_virtualization_tool(appropriate for minikube as described on minikube install page site)".
+5. Also this vm you created must be running while executing the code, so you can start or stop this vm by commands "minikube start" and
+"minikube stop" respectively.
 ```
 
 ### Steps to follow to get this code work :
