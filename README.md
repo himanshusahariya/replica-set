@@ -21,3 +21,11 @@ This code aims at creating a replica-set by terraform for any image provided und
 6. One thing shuld be kept in mind that the whole work must be done in the same directory where the code file is located
 ```
 ![image](https://user-images.githubusercontent.com/61407784/85315945-8d50b100-b4d9-11ea-9713-c619b2d719d6.png)
+This is how you should initialize your plugins download.
+
+![image](https://user-images.githubusercontent.com/61407784/85316211-03edae80-b4da-11ea-8c95-10173883214e.png)
+This image shows structure created using terraform.
+
+## Contact me :
+**E-mail :** labhanshusahariya@gmail.com
+**LinkedIn :** 
