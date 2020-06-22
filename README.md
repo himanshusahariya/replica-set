@@ -3,3 +3,20 @@
 This code aims at creating a replica-set by terraform for any image provided under the constraints given by the developer/user.
 #### Note:
 **This code uses the resource "kubernetes_deployment" as terraform doesn't have a resource for creating a *replica-set* so I used the particular resource as the deployment also uses replica-set concept behind the scene. So, using this particular resource will be equivalent to using any replica-set creation resource. Also it uses _match_expression_ block to match enviroment variables for pods.**
+
+### Pre-requisites for having this code work on your device :
+```
+1. The device must be installed with terraform CLI.
+2. Your device must have **Minikube** installed and environment variables must be set in the device.
+3. The device also must have **kubectl** installed to manage some pods through CLI.
+```
+
+### Steps to follow to get this code work :
+```
+1. First go to the directory which contains the terraform code file through CLI mode.
+2. Then run the command "terraform init" in the same directory. This will download and attach all the required plugins for the terraform code to work.
+3. After the plugins downloaded, run the command "terraform apply" to execute the code and create a replica-set.
+4. In above step, you have to approve manually by typing "yes" but if you want this step also to be automatic then you can use "terraform apply --auto-approve" in place of "terraform apply".
+5. Also if you have to delete that particular environment then use command "terraform destroy" to delete whole structure created. 
+6. One thing shuld be kept in mind that the whole work must be done in the same directory where the code file is located
+```
