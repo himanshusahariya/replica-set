@@ -7,8 +7,8 @@ This code aims at creating a replica-set by terraform for any image provided und
 ### Pre-requisites for having this code work on your device :
 ```
 1. The device must be installed with terraform CLI.
-2. Your device must have **Minikube** installed and environment variables must be set in the device.
-3. The device also must have **kubectl** installed to manage some pods through CLI.
+2. Your device must have "Minikube" installed and environment variables must be set in the device.
+3. The device also must have "kubectl" installed to manage some pods through CLI.
 ```
 
 ### Steps to follow to get this code work :
