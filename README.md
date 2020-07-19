@@ -32,4 +32,4 @@ This image shows structure created using terraform.
 ## Contact me :
 **E-mail :** labhanshusahariya@gmail.com
 
-**LinkedIn :** www.linkedin.com/in/himanshu-sahariya-926513198
+**LinkedIn :** www.linkedin.com/in/IAmHimanshuSahariya
